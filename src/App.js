@@ -5,6 +5,7 @@ import facebook from './facebook.svg'
 import twitter from './twitter.svg'
 import './App.css';
 import  Teste  from './Accordion';
+import  Playlist  from './Playlist';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -148,6 +149,7 @@ function Faq() {
         </nav>
       </header>
       <Teste />
+      <Playlist />
     </div>
   );
 }
