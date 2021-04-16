@@ -34,12 +34,12 @@ nav.nav-bar{
 }
 
 ul{
-  margin-top: 2em;
+  margin-top: 2em !important;
   margin-left: 55%;
 }
 
 a{
-  color: white;
+  color: white !important;
   margin-right: 50px;
   text-decoration: none;
   font-size: 18px;
@@ -47,7 +47,7 @@ a{
 }
 
 body{
-  background-color: black;
+  background-color: black !important;
 }
 
 .Foto{
@@ -145,4 +145,12 @@ div.p-footer a{
   font-weight: 300;
   margin-right: 3em;
   text-decoration: none;
+}
+
+.questions{
+  background-color: black !important; 
+}
+
+.questionLink{
+  color: white !important;
 }
